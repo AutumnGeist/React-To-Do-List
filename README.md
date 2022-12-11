@@ -1,6 +1,6 @@
 To-Do List app written in React.js
 
-Features:
-Dynamic Component Rendering
-Reading, Adding, Updating, and Deleting tasks
+Features:__
+Dynamic Component Rendering__
+Reading, Adding, Updating, and Deleting tasks__
 useState Hook
