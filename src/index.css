@@ -1,13 +1,86 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.container {
+  max-width: 500px;
+  min-height: 300px;
+  margin: 30px auto;
+  padding: 30px;
+  border: 1px solid steelblue;
+  border-radius: 5px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid steelblue;
+  margin-bottom: 30px;
 }
+
+.button {
+  padding: 8px;
+  font-weight: bold;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.subheadings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0px 10px 0px 10px;
+}
+
+.subheadings p {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+
+.task {
+  padding: 10px;
+  margin: 10px;
+  background-color: aliceblue;
+  border-radius: 5px;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.task.complete {
+  background-color: gainsboro;
+  text-decoration: line-through;
+}
+
+.checkBox {
+  width: 18px;
+  height: 18px;
+}
+
+.checkBox:hover {
+  cursor: pointer;
+}
+
+.addForm {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.addForm label {
+  margin-left: 10px;
+}
+
+.addForm input {
+  margin: 5px;
+}
+
+
+
+
+
+
