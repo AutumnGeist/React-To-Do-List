@@ -1,9 +1,7 @@
-To-Do List app written in React.js
+# React-To-Do-List
+A simple To-Do List app created with ReactJS. Used to learn the basics of React.
 
-Features:
-
-Dynamic Component Rendering
-
-Reading, Adding, Updating, and Deleting tasks
-
+### Functionalities
+Dynamic Component Rendering \
+Reading, Adding, Updating, and Deleting tasks \
 useState Hook
